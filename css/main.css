@@ -2,20 +2,27 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 *:focus{
     outline: 2px dotted #7296ec;
     outline-offset: 3px ;
 
 }
+
+
 body{
-    margin: 0;
-    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    
     font-family: 'Rubik',sans-serif;
     font-weight: 400;
     font-style: 16px;
-    line-height: 22px;
+    
     color: #4a4b4c;
+    max-width: 1440px;
+    background-color: #fff;
+   
      
 }
 .container {
@@ -159,4 +166,189 @@ body{
 .site-banner-link {
 }
 .site-banner-img {
+}
+.saitmain-container{
+    
+}
+
+.saitmain {
+    width: 393px;
+    height: 382px;
+    background-color:#F6F6F6;
+    padding: 20px 17px 15px 17px;
+    border-radius: 15px;
+    
+}
+.saitmain-div{
+    display: flex;
+    padding-top: 50px;
+
+}
+.saitmain:not(:last-child){
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.saitmain_div{
+    display: flex;
+}
+.saitmain-container-div{
+    
+}
+.saitmain-list {
+    width: 346px;
+    height: 78px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+.saitmain-item {
+}
+.saitmain-link {
+}
+.saitmain-img {
+    width: 360px;
+    height: 165px;
+    
+}
+.main-sait {
+    padding-bottom: 17px;
+}
+.img-saitmain{
+    padding-right: 10px;
+    margin-bottom: 15;
+}
+.sait-img {
+    display: flex;
+    align-items:center;
+    padding-right: 10px;
+}
+.main-p{
+    color: #5E5F61;
+}
+.saitdiv-conterner {
+   background-image: url(../rasmlar/Group.svg); 
+   width: 1050px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    
+}
+.divmain-sait {
+    display: flex;
+    width: 1050px;
+height: 100px;
+    align-items:center;
+}
+.paragrf {
+    width: 404px;
+    height: 52px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+   
+    margin-right: auto;
+    padding-left: 29px;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.button {
+}
+.buton {
+    background: #F78B3B;
+    border-radius: 10px;
+    width: 149px;
+    height: 50px;
+    align-items:center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 13px 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 71px;
+    margin-left: 397px;
+    
+}
+.sait-footer-conterner {
+    margin-top: 300px;
+    max-width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sait-footer {
+    max-width: 998px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 356px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.footer--footer{
+    display: flex;
+}
+.logo-sait {
+}
+.footer-paragrf {
+    display: flex;
+}
+hr{
+    color: #CECECE;
+    margin-top: 0;
+}
+.footer-p {
+    width: 229px;
+    height: 95px;
+    margin-bottom: 71px;
+    color:#fff;
+    margin-right: 203px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+}
+.footer-ul {
+    display: flex;
+}
+.footer-listi {
+    padding-right: 100px;
+
+
+}
+.footer-list {
+    
+}
+.footer-atem {
+    color:#fff;
+    padding-bottom: 20px;
+}
+.footer_-sait {
+    display: flex;
+    align-items:center;
+}
+
+.footer-h {
+    margin-right: auto;
+    color:#fff;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+width: 161px;
+height: 46px;
+}
+.footer-link {
+    margin-bottom: 15px;
+}
+.footer-img-link {
+    margin-right: 25px;
+    
+}
+.footer-img-link-img{
+    margin-right: 0;
 }
